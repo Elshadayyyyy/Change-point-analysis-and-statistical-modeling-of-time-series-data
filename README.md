@@ -21,3 +21,14 @@ This project analyzes historical Brent oil prices (May 1987 – Sep 2022) to det
 - clone the repo(git clone https://github.com/Elshadayyyyy/Change-point-analysis-and-statistical-modeling-of-time-series-data.git)
 - install requitements pip install -r requirements.txt
 - open jupyter notebook(jupyter notebook)
+- cd src  
+- python app.py  
+- cd brent-dashboard  
+- npm install  
+- npm start  
+- Open in your browser: http://localhost:3000  
+## Dashboard Features
+- Interactive price timeline
+- Event based annotations
+- Change point indicators
+- Clean analytical visuals
