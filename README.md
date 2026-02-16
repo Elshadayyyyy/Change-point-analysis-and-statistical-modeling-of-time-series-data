@@ -1,6 +1,6 @@
 # Brent oil price change point analysis
 ## Project overview
-
+-
 This project analyzes historical Brent oil prices (May 1987 – Sep 2022) to detect structural changes in price behavior and associate them with major geopolitical, economic, and policy events. Insights from this analysis support investors, policymakers, and energy companies in understanding risk and planning strategies in volatile energy markets.
 The backend API has been refactored for reliability, with unit tests and automated CI/CD to ensure reproducibility and maintainability.
 ---
