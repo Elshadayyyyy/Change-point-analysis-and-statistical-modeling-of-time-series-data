@@ -9,7 +9,7 @@ def load_prices() -> pd.DataFrame:
     prices_path = BASE_DIR / "BrentOilPrices.csv"
     df = pd.read_csv(prices_path)
     df.rename(columns=lambda x: x.strip().capitalize(), inplace=True)
-    df["Date"] = pd.to_datetime(df["Date"])
+    df["Date"] = pd.to_datetime(df["Date"], format="%Y-%m-%d")
     df = df.sort_values("Date")
     return df
 def load_events() -> pd.DataFrame:

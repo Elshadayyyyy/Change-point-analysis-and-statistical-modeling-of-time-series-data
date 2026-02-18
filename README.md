@@ -47,6 +47,9 @@ cd brent-dashboard
 npm install
 npm start
 # Open in browser: http://localhost:3000
+#for running tests 
+pytest -v
+
 ```
 
 ## Project Structure
